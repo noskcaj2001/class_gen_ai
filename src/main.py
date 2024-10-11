@@ -1,4 +1,8 @@
+
+#%%
 import pandas as pd
+
+#%%
 from services.openai_service import OpenAIService
 from services.data_processor import DataProcessor
 
@@ -23,3 +27,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# %%

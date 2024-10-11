@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    OPENAI_API_KEY = os.getenv('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')
+    OPENAI_API_KEY = os.getenv('SENHA')
     N_CATEGORIAS = 5
     
     # Definição das faixas de notas

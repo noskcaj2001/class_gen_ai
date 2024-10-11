@@ -1,6 +1,12 @@
+#%%
+import sys
+sys.path.append('..')
+
+
+#%%
 import openai
 from config.config import Config
-
+#%%
 class OpenAIService:
     def __init__(self):
         openai.api_key = Config.OPENAI_API_KEY
